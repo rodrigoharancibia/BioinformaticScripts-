@@ -3,13 +3,14 @@
 
 
 from Bio import SeqIO
-with open("vaxign.txt","r") as f: # estamos inserindo o arquivo txt no código, coloque o nome do arquivo que você criou
-  ids= [line.strip() for line in f]
+
+with open("ids.txt","r") as f:
+    ids= [line.strip() for line in f]
 
 
 
-protein_fasta_handle = open("TM_Porteins_selected_outer_membrane.fasta","r") # inserimos o arquivo fasta
-selected_proteins= open("output.fasta","w") # Aqui criamos a nova sequência fasta
+protein_fasta_handle = open("nonhomologous_rightSize.faa","r") # inserimos o arquivo fasta
+selected_proteins= open("pbit.fasta","w") # Aqui criamos a nova sequência fasta
 
 
 for record in SeqIO.parse(protein_fasta_handle, "fasta"): # Aqui se faz a seleção das proteínas

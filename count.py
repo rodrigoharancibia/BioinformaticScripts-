@@ -4,7 +4,7 @@
 
 from Bio import SeqIO 
 
-file = open('NonHomologous.fasta','r+') # insere o arquivo no script 
+file = open('Nonhomologous.fasta','r+') # insere o arquivo no script 
 deleted_proteins =open('deleted.txt','w+')# insere o arquivo para registrar as proteínas deletadas
 size_proteins=open('lenght_proteins.txt','w+') # insere o arquivo para mostra o tamanho das proteínas 
 proteins =open('proteins_size.txt','w+') # insere o arquivo com as proteínas selecionadas 
