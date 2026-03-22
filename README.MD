@@ -1,3 +1,5 @@
 # Essential  bioinformatics scripts 
 
-Repository with basic scripts to Bionformatics Analysis 
+Repository with basic scripts for Bioinformatics Analysis. It includes scripts about 
+- retrieval data from database 
+- 
