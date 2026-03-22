@@ -1,8 +1,8 @@
 # Essential  bioinformatics scripts 
 
 Repository with basic scripts for Bioinformatics Analysis. It includes scripts about 
--Database 
+- Database 
 - Alignment
--File Manipulation 
--NGS
+- File Manipulation 
+- NGS
 
